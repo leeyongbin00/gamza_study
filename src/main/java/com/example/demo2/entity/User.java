@@ -18,6 +18,7 @@ public class User {
     @Column(nullable = false)
     private String password;
 
+    //로그인 dto 생성해서 사용할 예정
     public User(String username, String password) {
         this.username = username;
         this.password = password;
